@@ -49,7 +49,7 @@ namespace Hazel {
 
 	class HAZEL_API MouseButtonEvent : public Event
 	{
-	public:
+	public: // TODO: check if it should be int
 		inline float GetMouseButton() const { return m_Button; }
 
 		EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
